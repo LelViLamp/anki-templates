@@ -1,0 +1,84 @@
+.verb {
+  background-color: lightblue;
+  color: black
+}
+.noun {
+  background-color: red;
+  color: white;
+}
+.adjective, .udPP, .accusative {
+  background-color: lightgreen;
+  color: black;
+}
+.uiPP, .dative {
+  background-color: yellow;
+  color: black;
+}
+.PP, .nominative {
+  background-color: darkred;
+  color: white;
+}
+.PossP, .genitive {
+  background-color: brown;
+  color: white;
+}
+
+.card {
+  font-family: arial;
+  font-size: x-large;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.vocabulary {
+  font-size: x-large;
+}
+
+#question {}
+#back {}
+#solution {}
+
+#ipa {
+  font-size: small;
+}
+#comment {
+  font-size: large;
+}
+#example {
+ font-size: smaller;
+}
+#tags {
+  font-size: small;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border-top: solid;
+  border-right: solid;
+  border-bottom: solid;
+  border-left: solid;
+
+}
+table thead {
+  border-bottom: solid;
+  vertical-align: top;
+}
+th, td {
+  font-weight: normal;
+  border-top: dotted thin;
+  border-right: dotted thin;
+  border-bottom: dotted thin;
+  border-left: dotted thin;
+  padding: .1em .3em .1em .3em;
+}
+table.conjugation tbody tr td#infinitive {
+  color: #009246;
+  font-weight: bold;
+}
+
+ul, ol {
+  text-align: left;
+}
